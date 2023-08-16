@@ -1,0 +1,897 @@
+CRITICAL - 2023-08-09 06:31:15 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-09 06:36:02 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-09 06:36:20 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-09 05:51:15 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\HomePage.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\HomePage.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\HomePage')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\HomePage')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\HomePage', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:51:16 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\HomePage.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\HomePage.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\HomePage')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\HomePage')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\HomePage', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:51:41 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\HomePage.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\HomePage.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\HomePage')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\HomePage')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\HomePage', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:51:42 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\HomePage.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\HomePage.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\HomePage')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\HomePage')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\HomePage', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:54:07 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:54:25 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:54:26 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:54:26 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:54:42 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:54:43 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:54:43 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:55:01 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:55:02 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:55:02 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:58:17 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:07:56 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:09:30 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:10:45 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:10:46 --> syntax error, unexpected identifier "HTML", expecting "]"
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:11:31 --> syntax error, unexpected token ":", expecting ";"
+in APPPATH\Views\myview.php on line 19.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:11:32 --> syntax error, unexpected token ":", expecting ";"
+in APPPATH\Views\myview.php on line 19.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:11:32 --> syntax error, unexpected token ":", expecting ";"
+in APPPATH\Views\myview.php on line 19.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:16:11 --> syntax error, unexpected token ":", expecting ";"
+in APPPATH\Views\myview.php on line 19.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:16:12 --> syntax error, unexpected token ":", expecting ";"
+in APPPATH\Views\myview.php on line 19.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:17:26 --> Undefined variable $subject
+in APPPATH\Views\myview.php on line 11.
+ 1 APPPATH\Views\myview.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subject', 'C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:17:26 --> Undefined variable $subject
+in APPPATH\Views\myview.php on line 11.
+ 1 APPPATH\Views\myview.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subject', 'C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:17:26 --> Undefined variable $subject
+in APPPATH\Views\myview.php on line 11.
+ 1 APPPATH\Views\myview.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subject', 'C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:18:15 --> Undefined variable $subject
+in APPPATH\Views\myview.php on line 11.
+ 1 APPPATH\Views\myview.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subject', 'C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:20:40 --> Undefined variable $subject
+in APPPATH\Views\myview.php on line 11.
+ 1 APPPATH\Views\myview.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subject', 'C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:21:54 --> Undefined variable $subject
+in APPPATH\Views\myview.php on line 12.
+ 1 APPPATH\Views\myview.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subject', 'C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\webpage\\app\\Views\\myview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:26:26 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\myview.php on line 16.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:26:26 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\myview.php on line 16.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:26:26 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\myview.php on line 16.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:26:27 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\myview.php on line 16.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:26:39 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\myview.php on line 16.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:33:03 --> syntax error, unexpected token "endif", expecting "," or ";"
+in APPPATH\Views\myview.php on line 20.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:33:13 --> syntax error, unexpected token "endif", expecting "," or ";"
+in APPPATH\Views\myview.php on line 20.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:33:13 --> syntax error, unexpected token "endif", expecting "," or ";"
+in APPPATH\Views\myview.php on line 20.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:33:13 --> syntax error, unexpected token "endif", expecting "," or ";"
+in APPPATH\Views\myview.php on line 20.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:33:52 --> syntax error, unexpected token "endif", expecting "," or ";"
+in APPPATH\Views\myview.php on line 20.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('myview', [], true)
+ 3 APPPATH\Controllers\Blog.php(15): view('myview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:03:20 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Data.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Data.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Data')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Data')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Data', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:04:10 --> Call to a member function generate() on array
+in APPPATH\Controllers\Data.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:04:11 --> Call to a member function generate() on array
+in APPPATH\Controllers\Data.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:04:11 --> Call to a member function generate() on array
+in APPPATH\Controllers\Data.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:06:29 --> Class "App\Controllers\Table" not found
+in APPPATH\Controllers\Data.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:08:44 --> Class "CodeIgniter\Views\Table" not found
+in APPPATH\Controllers\Data.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:08:45 --> Class "CodeIgniter\Views\Table" not found
+in APPPATH\Controllers\Data.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:15:06 --> Call to undefined method CodeIgniter\View\Table::setRow()
+in APPPATH\Controllers\Data.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:15:32 --> Undefined variable $data
+in APPPATH\Controllers\Data.php on line 29.
+ 1 APPPATH\Controllers\Data.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Data.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:16:32 --> Call to undefined method CodeIgniter\View\Table::setRow()
+in APPPATH\Controllers\Data.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 08:22:29 --> You have a syntax error in your Parser tags: "<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{page_title}</title>
+</head>
+<body>
+	<h1>{page_heading}</h1>
+	<h2>An example of Loop Substitutions</h2>
+
+		{subjects_list}
+		<div>
+			<h3>{subject}</h3>
+			<p>{abbr}</p>
+		</div>
+		{/subjects_list}
+
+		if (({status): )}
+		endif;
+
+</body>
+</html>"
+in SYSTEMPATH\View\Parser.php on line 462.
+ 1 SYSTEMPATH\View\Parser.php(462): CodeIgniter\View\Exceptions\ViewException::forTagSyntaxError('<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{page_title}</title>
+</head>
+<body>
+	<h1>{page_heading}</h1>
+	<h2>An example of Loop Substitutions</h2>
+
+		{subjects_list}
+		<div>
+			<h3>{subject}</h3>
+			<p>{abbr}</p>
+		</div>
+		{/subjects_list}
+
+		if (({status): )}
+		endif;
+
+</body>
+</html>')
+ 2 SYSTEMPATH\View\Parser.php(229): CodeIgniter\View\Parser->parseConditionals('<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{page_title}</title>
+</head>
+<body>
+	<h1>{page_heading}</h1>
+	<h2>An example of Loop Substitutions</h2>
+
+		{subjects_list}
+		<div>
+			<h3>{subject}</h3>
+			<p>{abbr}</p>
+		</div>
+		{/subjects_list}
+
+		<?php if (({status): ?>)}
+		endif;
+
+</body>
+</html>')
+ 3 SYSTEMPATH\View\Parser.php(128): CodeIgniter\View\Parser->parse('<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{page_title}</title>
+</head>
+<body>
+	<h1>{page_heading}</h1>
+	<h2>An example of Loop Substitutions</h2>
+
+		{subjects_list}
+		<div>
+			<h3>{subject}</h3>
+			<p>{abbr}</p>
+		</div>
+		{/subjects_list}
+
+		{if({status})}
+		endif;
+
+</body>
+</html>', [...], null)
+ 4 APPPATH\Controllers\HomePage.php(26): CodeIgniter\View\Parser->render('homepageview.php')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\HomePage->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 08:22:46 --> You have a syntax error in your Parser tags: "<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{page_title}</title>
+</head>
+<body>
+	<h1>{page_heading}</h1>
+	<h2>An example of Loop Substitutions</h2>
+
+		{subjects_list}
+		<div>
+			<h3>{subject}</h3>
+			<p>{abbr}</p>
+		</div>
+		{/subjects_list}
+
+		if (({status): )}
+		<p>hey</p>
+		endif;
+
+</body>
+</html>"
+in SYSTEMPATH\View\Parser.php on line 462.
+ 1 SYSTEMPATH\View\Parser.php(462): CodeIgniter\View\Exceptions\ViewException::forTagSyntaxError('<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{page_title}</title>
+</head>
+<body>
+	<h1>{page_heading}</h1>
+	<h2>An example of Loop Substitutions</h2>
+
+		{subjects_list}
+		<div>
+			<h3>{subject}</h3>
+			<p>{abbr}</p>
+		</div>
+		{/subjects_list}
+
+		if (({status): )}
+		<p>hey</p>
+		endif;
+
+</body>
+</html>')
+ 2 SYSTEMPATH\View\Parser.php(229): CodeIgniter\View\Parser->parseConditionals('<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{page_title}</title>
+</head>
+<body>
+	<h1>{page_heading}</h1>
+	<h2>An example of Loop Substitutions</h2>
+
+		{subjects_list}
+		<div>
+			<h3>{subject}</h3>
+			<p>{abbr}</p>
+		</div>
+		{/subjects_list}
+
+		<?php if (({status): ?>)}
+		<p>hey</p>
+		endif;
+
+</body>
+</html>')
+ 3 SYSTEMPATH\View\Parser.php(128): CodeIgniter\View\Parser->parse('<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{page_title}</title>
+</head>
+<body>
+	<h1>{page_heading}</h1>
+	<h2>An example of Loop Substitutions</h2>
+
+		{subjects_list}
+		<div>
+			<h3>{subject}</h3>
+			<p>{abbr}</p>
+		</div>
+		{/subjects_list}
+
+		{if({status})}
+		<p>hey</p>
+		endif;
+
+</body>
+</html>', [...], null)
+ 4 APPPATH\Controllers\HomePage.php(26): CodeIgniter\View\Parser->render('homepageview.php')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\HomePage->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 10:05:03 --> preg_match(): Compilation failed: unrecognized character follows \ at offset 6
+in SYSTEMPATH\Router\Router.php on line 422.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unrecognized character follows \\ at offset 6', 'C:\\xampp\\htdocs\\webpage\\system\\Router\\Router.php', 422)
+ 2 SYSTEMPATH\Router\Router.php(422): preg_match('#^Test\\index$#u', 'Test/viewFilters', [])
+ 3 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('Test/viewFilters')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/Test/viewFilters')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 10:05:05 --> preg_match(): Compilation failed: unrecognized character follows \ at offset 6
+in SYSTEMPATH\Router\Router.php on line 422.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unrecognized character follows \\ at offset 6', 'C:\\xampp\\htdocs\\webpage\\system\\Router\\Router.php', 422)
+ 2 SYSTEMPATH\Router\Router.php(422): preg_match('#^Test\\index$#u', 'Test/viewFilters', [])
+ 3 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('Test/viewFilters')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/Test/viewFilters')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 10:20:32 --> Cannot use temporary expression in write context
+in APPPATH\Controllers\Test.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-09 10:20:56 --> Cannot use temporary expression in write context
+in APPPATH\Controllers\Test.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-09 10:21:24 --> Undefined variable $parser
+in APPPATH\Controllers\Test.php on line 11.
+ 1 APPPATH\Controllers\Test.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parser', 'C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Test.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Test->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 10:23:25 --> Undefined variable $parser
+in APPPATH\Controllers\Test.php on line 11.
+ 1 APPPATH\Controllers\Test.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parser', 'C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Test.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Test->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 10:25:57 --> Undefined variable $parser
+in APPPATH\Controllers\Test.php on line 10.
+ 1 APPPATH\Controllers\Test.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parser', 'C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Test.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Test->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 10:27:25 --> Undefined variable $parser
+in APPPATH\Controllers\Test.php on line 10.
+ 1 APPPATH\Controllers\Test.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parser', 'C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Test.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Test->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 11:17:15 --> CodeIgniter\View\Filters::hidenumbers(): Return value must be of type string, none returned
+in SYSTEMPATH\View\Filters.php on line 265.
+ 1 SYSTEMPATH\View\Parser.php(608): CodeIgniter\View\Filters::hidenumbers('505470200')
+ 2 SYSTEMPATH\View\Parser.php(537): CodeIgniter\View\Parser->applyFilters('505470200', [...])
+ 3 SYSTEMPATH\View\Parser.php(518): CodeIgniter\View\Parser->prepareReplacement([...], '505470200', true)
+ 4 [internal function]: CodeIgniter\View\Parser->CodeIgniter\View\{closure}([...])
+ 5 SYSTEMPATH\View\Parser.php(509): preg_replace_callback('#{!?\\s*mobile(?(?=\\s*\\|\\s*)(\\s*\\|*\\s*([|\\w<>=\\(\\),:.\\-\\s\\+\\\\/]+)*\\s*))(\\s*)!?}#ums', Object(Closure), '<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage</title>
+</head>
+<body>
+	<h1>WELCOME TO HOMEPAGE</h1>
+	<p>DOB:22-05-10</p>
+	<p>DOB:2022-05-10</p>
+	<p>DOB:Wednesday 05th October 2022</p>
+	<p>DOB:Monday 10th October 2022</p>
+	<p>Price:₹5,000</p>
+	<p>Mobile:{mobile|hidenumbers}</p>
+</body>
+</html>')
+ 6 SYSTEMPATH\View\Parser.php(248): CodeIgniter\View\Parser->replaceSingle('#{!?\\s*mobile(?(?=\\s*\\|\\s*)(\\s*\\|*\\s*([|\\w<>=\\(\\),:.\\-\\s\\+\\\\/]+)*\\s*))(\\s*)!?}#ums', '505470200', '<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage</title>
+</head>
+<body>
+	<h1>WELCOME TO HOMEPAGE</h1>
+	<p>DOB:22-05-10</p>
+	<p>DOB:2022-05-10</p>
+	<p>DOB:Wednesday 05th October 2022</p>
+	<p>DOB:Monday 10th October 2022</p>
+	<p>Price:₹5,000</p>
+	<p>Mobile:{mobile|hidenumbers}</p>
+</body>
+</html>', true)
+ 7 SYSTEMPATH\View\Parser.php(128): CodeIgniter\View\Parser->parse('<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage</title>
+</head>
+<body>
+	<h1>WELCOME TO HOMEPAGE</h1>
+	<p>DOB:22-05-10</p>
+	<p>DOB:2022-05-10</p>
+	<p>DOB:Wednesday 05th October 2022</p>
+	<p>DOB:Monday 10th October 2022</p>
+	<p>Price:₹5,000</p>
+	<p>Mobile:{mobile|hidenumbers}</p>
+</body>
+</html>', [...], null)
+ 8 APPPATH\Controllers\Test.php(50): CodeIgniter\View\Parser->render('filterview.php')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Test->viewFilters()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 11:20:28 --> syntax error, unexpected token "}", expecting ";"
+in SYSTEMPATH\View\Filters.php on line 266.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\system\\View\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\View\\Filters')
+ 3 SYSTEMPATH\View\Parser.php(608): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\View\\Filters')
+ 4 SYSTEMPATH\View\Parser.php(537): CodeIgniter\View\Parser->applyFilters('05-10-2022', [...])
+ 5 SYSTEMPATH\View\Parser.php(518): CodeIgniter\View\Parser->prepareReplacement([...], '05-10-2022', true)
+ 6 [internal function]: CodeIgniter\View\Parser->CodeIgniter\View\{closure}([...])
+ 7 SYSTEMPATH\View\Parser.php(509): preg_replace_callback('#{!?\\s*date(?(?=\\s*\\|\\s*)(\\s*\\|*\\s*([|\\w<>=\\(\\),:.\\-\\s\\+\\\\/]+)*\\s*))(\\s*)!?}#ums', Object(Closure), '<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage</title>
+</head>
+<body>
+	<h1>WELCOME TO HOMEPAGE</h1>
+	<p>DOB:{date|date(y-d-m)}</p>
+	<p>DOB:{date|date(Y-d-m)}</p>
+	<p>DOB:{date|date(l dS F Y)}</p>
+	<p>DOB:{date|date_modify(+5days)|date(l dS F Y)}</p>
+	<p>Price:{price|local_currency(INR)}</p>
+	<h2>Applying Custom Filters</h2>
+	<p>Mobile:{mobile|hidenumbers}</p>
+</body>
+</html>')
+ 8 SYSTEMPATH\View\Parser.php(248): CodeIgniter\View\Parser->replaceSingle('#{!?\\s*date(?(?=\\s*\\|\\s*)(\\s*\\|*\\s*([|\\w<>=\\(\\),:.\\-\\s\\+\\\\/]+)*\\s*))(\\s*)!?}#ums', '05-10-2022', '<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage</title>
+</head>
+<body>
+	<h1>WELCOME TO HOMEPAGE</h1>
+	<p>DOB:{date|date(y-d-m)}</p>
+	<p>DOB:{date|date(Y-d-m)}</p>
+	<p>DOB:{date|date(l dS F Y)}</p>
+	<p>DOB:{date|date_modify(+5days)|date(l dS F Y)}</p>
+	<p>Price:{price|local_currency(INR)}</p>
+	<h2>Applying Custom Filters</h2>
+	<p>Mobile:{mobile|hidenumbers}</p>
+</body>
+</html>', true)
+ 9 SYSTEMPATH\View\Parser.php(128): CodeIgniter\View\Parser->parse('<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage</title>
+</head>
+<body>
+	<h1>WELCOME TO HOMEPAGE</h1>
+	<p>DOB:{date|date(y-d-m)}</p>
+	<p>DOB:{date|date(Y-d-m)}</p>
+	<p>DOB:{date|date(l dS F Y)}</p>
+	<p>DOB:{date|date_modify(+5days)|date(l dS F Y)}</p>
+	<p>Price:{price|local_currency(INR)}</p>
+	<h2>Applying Custom Filters</h2>
+	<p>Mobile:{mobile|hidenumbers}</p>
+</body>
+</html>', [...], null)
+10 APPPATH\Controllers\Test.php(50): CodeIgniter\View\Parser->render('filterview.php')
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Test->viewFilters()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 11:23:49 --> CodeIgniter\View\Filters::hidenumbers(): Argument #2 ($display) must be of type int, string given, called in C:\xampp\htdocs\webpage\system\View\Parser.php on line 608
+in SYSTEMPATH\View\Filters.php on line 251.
+ 1 SYSTEMPATH\View\Parser.php(608): CodeIgniter\View\Filters::hidenumbers('505470200', 'strlen-1')
+ 2 SYSTEMPATH\View\Parser.php(537): CodeIgniter\View\Parser->applyFilters('505470200', [...])
+ 3 SYSTEMPATH\View\Parser.php(518): CodeIgniter\View\Parser->prepareReplacement([...], '505470200', true)
+ 4 [internal function]: CodeIgniter\View\Parser->CodeIgniter\View\{closure}([...])
+ 5 SYSTEMPATH\View\Parser.php(509): preg_replace_callback('#{!?\\s*mobile(?(?=\\s*\\|\\s*)(\\s*\\|*\\s*([|\\w<>=\\(\\),:.\\-\\s\\+\\\\/]+)*\\s*))(\\s*)!?}#ums', Object(Closure), '<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage</title>
+</head>
+<body>
+	<h1>WELCOME TO HOMEPAGE</h1>
+	<p>DOB:22-05-10</p>
+	<p>DOB:2022-05-10</p>
+	<p>DOB:Wednesday 05th October 2022</p>
+	<p>DOB:Monday 10th October 2022</p>
+	<p>Price:₹5,000</p>
+	<h2>Applying Custom Filters</h2>
+	<p>Mobile:{mobile|hidenumbers(strlen-1)}</p>
+</body>
+</html>')
+ 6 SYSTEMPATH\View\Parser.php(248): CodeIgniter\View\Parser->replaceSingle('#{!?\\s*mobile(?(?=\\s*\\|\\s*)(\\s*\\|*\\s*([|\\w<>=\\(\\),:.\\-\\s\\+\\\\/]+)*\\s*))(\\s*)!?}#ums', '505470200', '<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage</title>
+</head>
+<body>
+	<h1>WELCOME TO HOMEPAGE</h1>
+	<p>DOB:22-05-10</p>
+	<p>DOB:2022-05-10</p>
+	<p>DOB:Wednesday 05th October 2022</p>
+	<p>DOB:Monday 10th October 2022</p>
+	<p>Price:₹5,000</p>
+	<h2>Applying Custom Filters</h2>
+	<p>Mobile:{mobile|hidenumbers(strlen-1)}</p>
+</body>
+</html>', true)
+ 7 SYSTEMPATH\View\Parser.php(128): CodeIgniter\View\Parser->parse('<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage</title>
+</head>
+<body>
+	<h1>WELCOME TO HOMEPAGE</h1>
+	<p>DOB:22-05-10</p>
+	<p>DOB:2022-05-10</p>
+	<p>DOB:Wednesday 05th October 2022</p>
+	<p>DOB:Monday 10th October 2022</p>
+	<p>Price:₹5,000</p>
+	<h2>Applying Custom Filters</h2>
+	<p>Mobile:{mobile|hidenumbers(strlen-1)}</p>
+</body>
+</html>', [...], null)
+ 8 APPPATH\Controllers\Test.php(50): CodeIgniter\View\Parser->render('filterview.php')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Test->viewFilters()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

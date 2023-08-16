@@ -1,0 +1,215 @@
+CRITICAL - 2023-08-10 06:26:50 --> syntax error, unexpected identifier "employee_details", expecting ")"
+in APPPATH\Controllers\Employees.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Employees.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Employees')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Employees')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Employees', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 06:28:19 --> syntax error, unexpected identifier "print_r", expecting "," or ";"
+in APPPATH\Controllers\Employees.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Employees.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Employees')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Employees')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Employees', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 06:29:12 --> Undefined variable $query
+in APPPATH\Controllers\Employees.php on line 10.
+ 1 APPPATH\Controllers\Employees.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Employees.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employees))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-10 06:29:45 --> mysqli_sql_exception: Table 'emplyoee_datails.employee_details' doesn't exist in C:\xampp\htdocs\webpage\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\webpage\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM e...', 0)
+#1 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\webpage\app\Controllers\Employees.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\webpage\system\CodeIgniter.php(932): App\Controllers\Employees->index()
+#5 C:\xampp\htdocs\webpage\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employees))
+#6 C:\xampp\htdocs\webpage\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webpage\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-10 06:29:45 --> Table 'emplyoee_datails.employee_details' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM employee_details', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employee_details')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employee_details')
+ 4 APPPATH\Controllers\Employees.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_details')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employees))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-10 06:56:17 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4' in C:\xampp\htdocs\webpage\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\webpage\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\webpage\app\Controllers\Emplyoees.php(19): CodeIgniter\Database\BaseConnection->query('SELECT username...')
+#4 C:\xampp\htdocs\webpage\system\CodeIgniter.php(932): App\Controllers\Emplyoees->index()
+#5 C:\xampp\htdocs\webpage\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emplyoees))
+#6 C:\xampp\htdocs\webpage\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webpage\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4' in C:\xampp\htdocs\webpage\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\webpage\app\Controllers\Emplyoees.php(19): CodeIgniter\Database\BaseConnection->query('SELECT username...')
+#3 C:\xampp\htdocs\webpage\system\CodeIgniter.php(932): App\Controllers\Emplyoees->index()
+#4 C:\xampp\htdocs\webpage\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emplyoees))
+#5 C:\xampp\htdocs\webpage\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webpage\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-10 06:56:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Emplyoees.php(19): CodeIgniter\Database\BaseConnection->query('SELECT username, email, mobile, from users')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Emplyoees->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emplyoees))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-10 06:57:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from users' at line 1 in C:\xampp\htdocs\webpage\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\webpage\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT username...', 0)
+#1 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT username...')
+#2 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT username...')
+#3 C:\xampp\htdocs\webpage\app\Controllers\Emplyoees.php(19): CodeIgniter\Database\BaseConnection->query('SELECT username...')
+#4 C:\xampp\htdocs\webpage\system\CodeIgniter.php(932): App\Controllers\Emplyoees->index()
+#5 C:\xampp\htdocs\webpage\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emplyoees))
+#6 C:\xampp\htdocs\webpage\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webpage\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-10 06:57:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from users' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT username, email, mobile, from users', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT username, email, mobile, from users')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT username, email, mobile, from users')
+ 4 APPPATH\Controllers\Emplyoees.php(19): CodeIgniter\Database\BaseConnection->query('SELECT username, email, mobile, from users')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Emplyoees->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emplyoees))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 06:57:50 --> Undefined variable $query
+in APPPATH\Controllers\Emplyoees.php on line 20.
+ 1 APPPATH\Controllers\Emplyoees.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Emplyoees.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Emplyoees->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emplyoees))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 06:58:30 --> Unclosed '(' on line 19
+in APPPATH\Controllers\Emplyoees.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Emplyoees.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Emplyoees')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Emplyoees')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Emplyoees', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 06:58:31 --> Unclosed '(' on line 19
+in APPPATH\Controllers\Emplyoees.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Emplyoees.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Emplyoees')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Emplyoees')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Emplyoees', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 06:58:31 --> Unclosed '(' on line 19
+in APPPATH\Controllers\Emplyoees.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Emplyoees.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Emplyoees')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Emplyoees')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Emplyoees', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 06:59:04 --> Undefined variable $query
+in APPPATH\Controllers\Emplyoees.php on line 20.
+ 1 APPPATH\Controllers\Emplyoees.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\xampp\\htdocs\\webpage\\app\\Controllers\\Emplyoees.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Emplyoees->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emplyoees))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 07:23:19 --> syntax error, unexpected token "=>"
+in APPPATH\Models\UserModel.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webpage\\app\\Models\\UserModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 3 APPPATH\Controllers\NewData.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\NewData->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewData))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 07:41:14 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\Views\newdataview.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-10 07:41:17 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\Views\newdataview.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-08-10 08:22:02 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4' in C:\xampp\htdocs\webpage\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\webpage\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\webpage\app\Models\UserModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\webpage\app\Controllers\NewData.php(39): App\Models\UserModel->getUserList()
+#5 C:\xampp\htdocs\webpage\system\CodeIgniter.php(932): App\Controllers\NewData->usersList()
+#6 C:\xampp\htdocs\webpage\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewData))
+#7 C:\xampp\htdocs\webpage\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webpage\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4' in C:\xampp\htdocs\webpage\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\webpage\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\webpage\app\Models\UserModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#3 C:\xampp\htdocs\webpage\app\Controllers\NewData.php(39): App\Models\UserModel->getUserList()
+#4 C:\xampp\htdocs\webpage\system\CodeIgniter.php(932): App\Controllers\NewData->usersList()
+#5 C:\xampp\htdocs\webpage\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewData))
+#6 C:\xampp\htdocs\webpage\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webpage\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-10 08:22:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\UserModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM emplyoee_details')
+ 3 APPPATH\Controllers\NewData.php(39): App\Models\UserModel->getUserList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\NewData->usersList()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewData))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 10:30:48 --> Invalid file: "layouts/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layouts/', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('layouts/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 11:07:16 --> Array to string conversion
+in APPPATH\Models\UserModel.php on line 22.
+ 1 APPPATH\Models\UserModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\webpage\\app\\Models\\UserModel.php', 22)
+ 2 APPPATH\Controllers\NewData.php(39): App\Models\UserModel->getUserList()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\NewData->usersList()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewData))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 12:01:21 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\homeview.php on line 1.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('homeview', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('homeview', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
